@@ -6,7 +6,7 @@ If you don't already have one, (Create a Spheron account )[https://app.spheron.n
 
 Check out the [Spheron Browser Upload SDK docs](https://docs.spheron.network/sdk/browser/) for more info!
 
-After creating an account, you need to create a [Etherscan Access Token](https://etherscan.com)
+After creating an account, you need to create an [Etherscan Access Token](https://etherscan.com)
 
 ### SpheronDevsDAO Contract deployed on Sepolia
 
@@ -42,6 +42,7 @@ cp .env.example .env
 Then add your Access token to your `.env` file:
 ```
 SPHERON_ACCESS_TOKEN=
+ETHERSCAN_API_TOKEN=
 ```
 
 Spin up local environment (hot reloading included):
