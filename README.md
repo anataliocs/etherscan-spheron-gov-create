@@ -8,6 +8,23 @@ Check out the [Spheron Browser Upload SDK docs](https://docs.spheron.network/sdk
 
 After creating an account, you need to create a [Etherscan Access Token](https://etherscan.com)
 
+### SpheronDevsDAO Contract deployed on Sepolia
+
+- Etherscan: https://sepolia.etherscan.io/address/0x3cb304483fa3d946ABe8dCa89e92760a112b6a59
+- Deployed Address:  0x3cb304483fa3d946ABe8dCa89e92760a112b6a59
+- Contract:  https://github.com/anataliocs/dao-tutorial/blob/master/backend/contracts/SpheronDevsDAO.sol
+
+    This contract emits a `DeployEvent` upon successful vote of a proposal.  DAO members must have a `SpheronDevs NFT`
+
+### SpheronDevsNFT Contract deployed on Sepolia
+
+- Etherscan: https://sepolia.etherscan.io/address/0xa30AeCeFb798591EB422a841f85A88626CC41204
+- Deployed Address:  0xa30AeCeFb798591EB422a841f85A88626CC41204
+- Contract:  https://github.com/anataliocs/nft-ipfs/blob/master/hardhat/contracts/SpheronDevs.sol
+
+  This contract is a NFT that gates access to the `SpheronDevsDAO` for voting.
+
+
 ## Local Build(MacOS)
 
 Install dependencies:

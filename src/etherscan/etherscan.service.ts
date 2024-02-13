@@ -52,7 +52,7 @@ export class EtherscanService {
         });
 
         let config : InstanceCreationConfig  = {
-            clusterName: "test123",
+            clusterName: "test12345",
             type: ComputeTypeEnum.DEMAND,
             healthCheckConfig: {path: "", port: 0},
             configuration: {
